@@ -433,7 +433,7 @@ p {
     line-height: 1.25;
     line-height: 1.5;
     letter-spacing: -0.2px;
-    color: #6A67F6; }
+    color: #354052; }
   .timeline-all a {
     color: #6A67F6; }
     .timeline-all a:hover {
@@ -632,8 +632,7 @@ p {
     .timeline-all .timeline-info.timeline-info-fix {
       margin-top: 4px; } }
   .timeline-all .timeline-dead .timeline-info span,
-  .timeline-all .timeline-dead h3.timeline-title,
-  .timeline-all .timeline-dead p {
+  .timeline-all .timeline-dead h3.timeline-title p {
     color: #8684f8; }
   .timeline-all .timeline-dead .timeline-marker:after {
     background: #8684f8;
@@ -724,14 +723,9 @@ p {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
     transition: -webkit-filter .2s ease;
     transition: filter .2s ease;
     transition: filter .2s ease, -webkit-filter .2s ease; }
-    .member .img:hover, .member .img.active {
-      -webkit-filter: grayscale(0%);
-              filter: grayscale(0%); }
     .member .img .overlay {
       position: absolute;
       width: 100%;
